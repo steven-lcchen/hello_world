@@ -1,0 +1,299 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.82.90
+# Built for i686-pc-mingw32
+# Copyright (C) 1988-2012 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Sat Jul 16 23:31:25 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# makefile
+MAKEFLAGS = Rrqp
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# makefile
+CURDIR := d:/Users/1604017/Documents/GitHub/hello_world
+# default
+SHELL := sh.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+VSCODE_NLS_CONFIG = {"locale":"zh-tw","availableLanguages":{"*":"zh-tw"},"_languagePackId":"a0b772d00248b7f5c117cab9736199be.zh-tw","_translationsConfigFile":"C:\\Users\\1604017\\AppData\\Roaming\\Code\\clp\\a0b772d00248b7f5c117cab9736199be.zh-tw\\tcf.json","_cacheRoot":"C:\\Users\\1604017\\AppData\\Roaming\\Code\\clp\\a0b772d00248b7f5c117cab9736199be.zh-tw","_resolvedLanguagePackCoreLocation":"C:\\Users\\1604017\\AppData 
+\\Roaming\\Code\\clp\\a0b772d00248b7f5c117cab9736199be.zh-tw\\b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a","_corruptedFile":"C:\\Users\\1604017\\AppData\\Roaming\\Code\\clp\\a0b772d00248b7f5c117cab9736199be.zh-tw\\corrupted.info","_languagePackSupport":true}
+# environment
+ONEDRIVE = E:\Users\1604017\OneDrive
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+TMP = C:\Users\1604017\AppData\Local\Temp
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_CWD = C:\Users\1604017\AppData\Local\Programs\Microsoft VS Code
+# environment
+PATH = C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\1604017\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\1604017\AppData\Local\Programs\Python\Python39\;C:\Users\1604017\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\1604017\AppData\Local\Programs\Python\Python310\;C:\Users\1604017\AppData\Local\Programs\Python\Launcher\;C:\Users\1604017\AppData\Local\Microsoft\WindowsApps;C:\Users\1604017\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\1604017\AppData\Local\GitHubDesktop\bin;C:\Users\1604017\AppData\Local\Vim\vim82;C:\MinGW\bin;
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+ZES_ENABLE_SYSMAN = 1
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+USERPROFILE = C:\Users\1604017
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+NUMBER_OF_PROCESSORS = 8
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_12984_DVJFBMYWIJSCATFP
+# environment
+COMPUTERNAME = HSCPC-1604017
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+USERDNSDOMAIN = TSRI.ORG.TW
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = 1604017
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\1604017\AppData\Roaming\Code\CachedData\b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\TSRI-DC2
+# environment
+ONEDRIVECONSUMER = E:\Users\1604017\OneDrive
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = TSRI
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# default
+MAKE_VERSION := 3.82.90
+# environment
+__PSLOCKDOWNPOLICY = 0
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# environment
+LOCALAPPDATA = C:\Users\1604017\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 13, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\d8ef8855d16214ff65335b33b5cfa5a1-1.69.1-main-sock
+# environment
+HOMEPATH = \Users\1604017
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+SYSTEMROOT = C:\WINDOWS
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\1604017\AppData\Roaming
+# environment
+TEMP = C:\Users\1604017\AppData\Local\Temp
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 9e0d
+# default
+.INCLUDE_DIRS = C:/MinGW/include
+# default
+.RECIPEPREFIX := 
+# makefile
+.DEFAULT_GOAL := all
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+VSCODE_PID = 12984
+# environment
+USERDOMAIN_ROAMINGPROFILE = TSRI
+# variable set hash-table stats:
+# Load=88/1024=9%, Rehash=0, Collisions=13/110=12%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# C:\Users\1604017\AppData\Local\Programs\Python\Launcher\ (key C:/Users/1604017/AppData/Local/Programs/Python/Launcher/, mtime 1639983268): 5 files, no impossibilities.
+# C:\Users\1604017\AppData\Local\Microsoft\WindowsApps (key C:/Users/1604017/AppData/Local/Microsoft/WindowsApps, mtime 1656716017): 13 files, no impossibilities.
+# C:\Users\1604017\AppData\Local\Vi 
+m\vim82 (key C:/Users/1604017/AppData/Local/Vim/vim82, mtime 1649642497): 55 files, no impossibilities.
+# C:\WINDOWS\System32\WindowsPowerShell\v1.0\ (key C:/WINDOWS/System32/WindowsPowerShell/v1.0/, mtime 1605743945): 32 files, no impossibilities.
+# . (key d:/Users/1604017/Documents/GitHub/hello_world, mtime 1657622026): 10 files, no impossibilities.
+# C:\Users\1604017\AppData\Local\GitHubDesktop\bin (key C:/Users/1604017/AppData/Local/GitHubDesktop/bin, mtime 1640565759): 4 files, no impossibilities.
+# C:\Users\1604017\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/1604017/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1657981228): 4 files, no impossibilities.
+# C:\Users\1604017\AppData\Local\Programs\Python\Python310\ (key C:/Users/1604017/AppData/Local/Programs/Python/Python310/, mtime 1640576423): 6 files, no impossibilities.
+# C:\WINDOWS\System32\OpenSSH\: could not be stat'd.
+# C:\MinGW\bin (key C:/MinGW/bin, mtime 1656557391): 60 files, no impossibilities.
+# C:\Users\1604017\AppData\Local\Programs\Python\Python310\Scripts\ (key C:/Users/1604017/AppData/Local/Programs/Python/Python310/Scripts/, mtime 1640310800): 37 files, no impossibilities.
+# C:\WINDOWS (key C:/WINDOWS, mtime 1653869366): 108 files, no impossibilities.
+# C:\WINDOWS\System32\Wbem (key C:/WINDOWS/System32/Wbem, mtime 1653869169): 172 files, no impossibilities.
+# C:\Users\1604017\AppData\Local\Programs\Python\Python39\ (key C:/Users/1604017/AppData/Local/Programs/Python/Python39/, mtime 1640577454): 19 files, no impossibilities.
+# C:\Users\1604017\AppData\Local\Programs\Python\Python39\Scripts\ (key C:/Users/1604017/AppData/Local/Programs/Python/Python39/Scripts/, mtime 1640577623): 22 files, no impossibilities.
+# C:\WINDOWS\system32 (key C:/WINDOWS/system32, mtime 1653967671): 2868 files, no impossibilities.
+
+# 3415 files, no impossibilities in 16 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+all:
+#  Command line target.
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := all
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/11=9%
+#  recipe to execute (from 'Makefile', line 3):
+	g++ --std=c++11 -O3 -o bin/decoder src/decoder.cpp
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time 
+ never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-04 10:00:30
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 6):
+	rm -f bin/encoder bin/decoder
+
+# files hash-table stats:
+# Load=5/1024=0%, Rehash=0, Collisions=0/17=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 7 (5) / strings = 3363 / storage = 50559 B / avg = 15 B
+# current buf: size = 8174 B / used = 1568 B / count = 125 / avg = 12 B
+# other used: total = 42385 B / count = 3238 / avg = 13 B
+# other free: total = 53 B / max = 18 B / min = 3 B / avg = 8 B
+
+# strcache performance: lookups = 3442 / hit rate = 2%
+# hash-table stats:
+# Load=3363/8192=41%, Rehash=0, Collisions=1135/3442=33%
+# Finished Make data base on Sat Jul 16 23:31:25 2022
+
+ 
