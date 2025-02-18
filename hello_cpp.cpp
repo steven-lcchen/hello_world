@@ -1,3 +1,4 @@
+using namespace std;
 #include <iostream>
 
 // for cout radix test
