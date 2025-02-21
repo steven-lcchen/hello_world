@@ -5,6 +5,6 @@ int main() {
         printf("Hello, World! w/ C\n");
         printf("press ENTER key ...");
         getchar();
-        system("read -p \"Press enter to continue\""); // BASH
+        system("read -p \"Press ENTER to continue(BASH system call)\""); // BASH
         return 0;
 }
