@@ -4,7 +4,6 @@ using namespace std;
 // for cout radix test
 #include <sstream>
 #include <bitset>
-
 #include <iomanip>
 
 int main()
