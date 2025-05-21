@@ -184,16 +184,21 @@ Markdown 製作表格時使用 | 來分隔不同的單元格，使用 - 來分�
 
 # 插入圖片
 語法  
-![這是圖片不見時的文字說明(可以不寫)](圖片位址 "滑鼠hover時顯示的圖片標題")  
-Use [Google](https://www.markdownguide.org "My search engine!").
+\!\[這是圖片不見時的文字說明(可以不寫)](圖片位址 "滑鼠hover時顯示的圖片標題")  
+Use ![Altis](https://images3.kingautos.net/2023/04/26/l5_Vo8Kdwp-HnprNma6ivcCdkZ2U.jpg "Altis 2025").
 You can optionally add a title for a link. This will appear as a tooltip when the user hovers over the link. To add a title, enclose it in parentheses after the URL.
 - - -
-1. example 1  
+1. example 1: \!\[ ]
 ![這是圖片不見時的文字說明](./684-600x400.jpg "雄偉大山")
-___
-2. example 2  
+![](./cat.bmp)
+![](./chinese-opera.png)
+---
+2. example 2: import
+@import "./cat.bmp"
+---
+3. example 3: web link
 ![](https://www.google.com/photos/about/static/images/google.svg)  
-
+@import "https://www.google.com/photos/about/static/images/google.svg"
 
 ## 指定圖片大小. 
 Markdown 不支持指定圖片大小，但可以直接插入\<img ... />標籤來指定屬性：  
@@ -201,6 +206,11 @@ Markdown 不支持指定圖片大小，但可以直接插入\<img ... />標籤�
 <img src="https://www.google.com/photos/about/static/images/google.svg" title="width='200'" width="200" />  
 <img src="https://www.google.com/photos/about/static/images/google.svg" title="height='50'" height="50" />  
 <img src="https://www.google.com/photos/about/static/images/google.svg" title="zoom='10%'" style="zoom:10%" />  
+
+## 嵌入Youtube影片
+[![圖片不見時的文字說明](https://markdown-videos-api.jorgenkh.no/youtube/{YOUTUBE_CODE})](https://youtu.be/{YOUTUBE_CIDE})
+Ex.
+[![Watch the video](https://markdown-videos-api.jorgenkh.no/youtube/q3hONNn4UwM?si=ttC8lwsrvOE-xLcH)](https://youtu.be/q3hONNn4UwM?si=ttC8lwsrvOE-xLcH)
 
 # 數學公式及符號
 - 有行內公式與獨立公式兩種：
@@ -244,8 +254,3 @@ $$ f(x,y,z) = 3y^2z \langle 3+\frac{7x+5}{1+y^2} \rangle $$
 - Markdown guide: https://www.markdownguide.org
 - Markdown 指南中文版: https://www.markdown.xyz
 - Markdown線上編輯器：https://www.mdeditor.tw/
-
-
-dsdsdsd
-sdsdsd
-sdsdsds
